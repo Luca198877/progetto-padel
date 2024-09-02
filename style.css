@@ -1,0 +1,137 @@
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.dark-mode .support-card h5 {
+    color: black;
+}
+.dark-mode .contatti h3,p {
+    color: black;
+}
+.dark-mode .section-card p {
+    color:white
+}
+.dark-mode .nav-superiore a {
+    color: white;
+}
+.dark-mode .struttura p  {
+    color:white;
+}
+
+.nav-superiore {
+    border-bottom: 2px solid red;
+}
+.nav-superiore a {
+    text-decoration: none;
+    color: black;
+}
+.navbar {
+    background-color: darkorange;
+}
+
+@keyframes fa-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg); 
+      }
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+  .fa-spin {
+    animation: fa-spin 2s infinite linear;
+  }
+  .fa-spin2 {
+    animation : fa-spin 2.5s;
+  }
+
+.head-banner{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: dimgray;
+    background:url(./foto/sfondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.section-card .immagini {
+    background-size: cover;
+   
+}
+.section-card p {
+    padding-top :4rem;
+    padding-bottom :4rem
+}
+
+.struttura h2,p {
+   /* color:black;*/
+}
+.struttura .immagini {
+    background-size: cover;
+    padding-top: 4rem;
+    padding-top: 4rem;
+    
+}
+/* Menu laterale*/
+.lateral-menu {
+    position:fixed;
+    top:550px;
+    right:0;
+    float: right;
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: darkgrey;
+    border: 3px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    /*border-image: linear-gradient(to bottom, red, darkorange) 1;
+    transition: border-image 0.3s;*/
+    
+}
+.lateral-menu:hover {
+    /*border: 3px solid linear-gradient(to bottom,darkorange,red);*/
+    border : 3px solid red;
+    
+}
+.lateral-menu .dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lateral-menu .delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-color: darkorange;
+}
+
+.footer a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+@media  (max-width: 768px) {
+    .nav-superiore {
+        display:none;
+    }
+    .head-banner {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
+    
+}
